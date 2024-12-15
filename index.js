@@ -6,7 +6,7 @@ const DEFAULT_LOCATION = 'Riyadh';
 const BASE_URL = `http://api.weatherapi.com/v1/current.json?key=${WEATHER_API_KEY}&q=`;
 
 /**
- * HTTP function that supports CORS requests.
+ * HTTP function that supports CORS requests
  *
  * @param {Object} req Cloud Function request context.
  * @param {Object} res Cloud Function response context.
